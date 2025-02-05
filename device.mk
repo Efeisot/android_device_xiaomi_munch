@@ -43,3 +43,9 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
+
+# Sign Keys
+-include vendor/lineage-priv/keys/keys.mk
+
+#MindTheGapps
+#$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
