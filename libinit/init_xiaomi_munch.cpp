@@ -16,6 +16,7 @@ static const variant_info_t munch_in_info = {
     .brand = "POCO",
     .device = "munch",
     .marketname = "POCO F4",
+    .mod_device = "munch_in_global",
     .model = "22021211RI",
     .build_fingerprint = "POCO/munch_in/munch:14/UKQ1.231207.002/V816.0.8.0.ULMMIXM:user/release-keys",
 
@@ -29,6 +30,7 @@ static const variant_info_t munch_global_info = {
     .brand = "POCO",
     .device = "munch",
     .marketname = "POCO F4",
+    .mod_device = "munch_global",
     .model = "22021211RG",
     .build_fingerprint = "POCO/munch_global/munch:14/UKQ1.231207.002/V816.0.8.0.ULMMIXM:user/release-keys",
 
@@ -42,6 +44,7 @@ static const variant_info_t munch_info = {
     .brand = "Redmi",
     .device = "munch",
     .marketname = "Redmi K40S",
+    .mod_device = "munch_global",
     .model = "22021211RC",
     .build_fingerprint = "Redmi/munch/munch:14/UKQ1.231207.002/V816.0.8.0.ULMMIXM:user/release-keys",
 

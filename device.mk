@@ -49,3 +49,6 @@ $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
 
 #MindTheGapps
 #$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
