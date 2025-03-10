@@ -9,6 +9,9 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/munch
 
+# Bluetooth (LHDC)
+$(call soong_config_set, btservices, use_lhdc, true)
+
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
