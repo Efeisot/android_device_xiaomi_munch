@@ -23,7 +23,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_munch
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_munch
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/munch.config
+TARGET_KERNEL_CONFIG += vendor/munch_defconfig
 
 # Leica Camera
 TARGET_INCLUDES_MIUI_CAMERA := true
